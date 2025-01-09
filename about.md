@@ -46,7 +46,7 @@ console.log('Hello, spaceman!');
 
 <style>
   #code-block {
-    background-color: #f4f4f4;
+    background-color: #93B6F9;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
