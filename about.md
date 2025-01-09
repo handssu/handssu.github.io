@@ -18,27 +18,21 @@ toc: true
 
 ### METAVERSE
 Gathertown - 밀양여자고등학교 2021 온라인 동아리 발표회, 29 October, 2021
-
 Link: [동아리 발표회 게더타운](https://app.gather.town/app/m1IjXwS67BeHLlDV/TG-Technology%20Growth)
 
 ZEP - 밀양여자고등학교 2022 온라인 발표회
-
 Link: [동아리 발표회 ZEP](https://zep.us/play/24JvZV)
 
 ### PY_GAME
 몽중인 - 2021 동아리 발표회를 위한 밀양여자고등학교 IT 동아리 TG의 프로젝트 결과물
-
 About: [몽중인 코드]
 
 국어 문법 상식 테스트 - 2022 동아리 발표회를 위한 밀양여자고등학교 IT 동아리 TG의 파이썬 팀의 프로젝트 결과물
-
 About: [국어 문법 상식 테스트 코드]
 
 Spaceman - 2022년 개인 프로젝트의 결과물(Python으로 제작)
-
 About: [Spaceman 코드]
 
 ### C_GAME
 C언어 테트리스 - 2022년 개인 프로젝트의 결과물(C언어로 제작)
-
 About: [C언어 테트리스 코드]
