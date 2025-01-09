@@ -34,7 +34,7 @@ Spaceman - 2022년 개인 프로젝트의 결과물(Python으로 제작)
 About: [Spaceman 코드]
 
 <div>
-  <button id="toggle-button">spaceman 코드</button>
+  <button id="toggle-button" style="background-color:#93B6F9; font-color:white;">spaceman 코드</button>
   <pre id="code-block" style="display: none;">
     <code>
 // 여기에 spaceman 코드를 작성하세요
