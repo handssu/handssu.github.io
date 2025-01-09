@@ -57,7 +57,7 @@ console.log('Hello, spaceman!');
 
 국어 문법 상식 테스트 - 2022 동아리 발표회를 위한 밀양여자고등학교 IT 동아리 TG의 파이썬 팀의 프로젝트 결과물
 <div>
-  <button id="toggle-button" style="background-color:#93B6F9; font-color:#FFFFFF;">국어 문법 상식 테스트 코드</button>
+  <button id="toggle-button">국어 문법 상식 테스트 코드</button>
   <pre id="code-block" style="display: none;">
     <code>
 // 여기에 spaceman 코드를 작성하세요
@@ -67,6 +67,17 @@ console.log('Hello, spaceman!');
   </pre>
 </div>
 <style>
+  #toggle-button {
+    border-radius: 10px; /* 모서리를 둥글게 */
+    padding: 10px 20px; /* 버튼 크기 조절 */
+    background-color: #007bff; /* 버튼 배경색 */
+    color: white; /* 텍스트 색 */
+    border: none; /* 버튼 테두리 제거 */
+    cursor: pointer; /* 마우스를 올리면 포인터 표시 */
+  }
+  #toggle-button:hover {
+    background-color: #0056b3; /* 마우스를 올렸을 때 색상 */
+  }
   #code-block {
     background-color: #93B6F9;
     padding: 10px;
