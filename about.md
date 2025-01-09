@@ -33,6 +33,38 @@ About: [국어 문법 상식 테스트 코드]
 Spaceman - 2022년 개인 프로젝트의 결과물(Python으로 제작)
 About: [Spaceman 코드]
 
+<div>
+  <button id="toggle-button">spaceman 코드</button>
+  <pre id="code-block" style="display: none;">
+    <code>
+// 여기에 spaceman 코드를 작성하세요
+pygame 뭐시기뭐시기
+console.log('Hello, spaceman!');
+    </code>
+  </pre>
+</div>
+
+<style>
+  #code-block {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: monospace;
+  }
+</style>
+
+<script>
+  document.getElementById('toggle-button').addEventListener('click', function () {
+    const codeBlock = document.getElementById('code-block');
+    if (codeBlock.style.display === 'none' || codeBlock.style.display === '') {
+      codeBlock.style.display = 'block';
+    } else {
+      codeBlock.style.display = 'none';
+    }
+  });
+</script>
+
 ### C_GAME
 C언어 테트리스 - 2022년 개인 프로젝트의 결과물(C언어로 제작)
 About: [C언어 테트리스 코드]
