@@ -26,7 +26,7 @@ Link: [동아리 발표회 ZEP](https://zep.us/play/24JvZV)
 ### PY_GAME
 몽중인 - 2021 동아리 발표회를 위한 밀양여자고등학교 IT 동아리 TG의 프로젝트 결과물
 <div>
-  <button id="toggle-button" style="background-color:#93B6F9; font-color:#FFFFFF;">몽중인 코드</button>
+  <button id="toggle-button1">몽중인 코드</button>
   <pre id="code-block" style="display: none;">
     <code>
 // 여기에 spaceman 코드를 작성하세요
@@ -36,38 +36,7 @@ console.log('Hello, spaceman!');
   </pre>
 </div>
 <style>
-  #code-block {
-    background-color: #93B6F9;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-family: monospace;
-  }
-</style>
-<script>
-  document.getElementById('toggle-button').addEventListener('click', function () {
-    const codeBlock = document.getElementById('code-block');
-    if (codeBlock.style.display === 'none' || codeBlock.style.display === '') {
-      codeBlock.style.display = 'block';
-    } else {
-      codeBlock.style.display = 'none';
-    }
-  });
-</script>
-
-국어 문법 상식 테스트 - 2022 동아리 발표회를 위한 밀양여자고등학교 IT 동아리 TG의 파이썬 팀의 프로젝트 결과물
-<div>
-  <button id="toggle-button">국어 문법 상식 테스트 코드</button>
-  <pre id="code-block" style="display: none;">
-    <code>
-// 여기에 spaceman 코드를 작성하세요
-pygame 뭐시기뭐시기
-console.log('Hello, spaceman!');
-    </code>
-  </pre>
-</div>
-<style>
-  #toggle-button {
+  #toggle-button1 {
     border-radius: 10px; /* 모서리를 둥글게 */
     padding: 10px 20px; /* 버튼 크기 조절 */
     background-color: #007bff; /* 버튼 배경색 */
@@ -75,7 +44,7 @@ console.log('Hello, spaceman!');
     border: none; /* 버튼 테두리 제거 */
     cursor: pointer; /* 마우스를 올리면 포인터 표시 */
   }
-  #toggle-button:hover {
+  #toggle-button1:hover {
     background-color: #0056b3; /* 마우스를 올렸을 때 색상 */
   }
   #code-block {
@@ -87,7 +56,49 @@ console.log('Hello, spaceman!');
   }
 </style>
 <script>
-  document.getElementById('toggle-button').addEventListener('click', function () {
+  document.getElementById('toggle-button1').addEventListener('click', function () {
+    const codeBlock = document.getElementById('code-block');
+    if (codeBlock.style.display === 'none' || codeBlock.style.display === '') {
+      codeBlock.style.display = 'block';
+    } else {
+      codeBlock.style.display = 'none';
+    }
+  });
+</script>
+
+국어 문법 상식 테스트 - 2022 동아리 발표회를 위한 밀양여자고등학교 IT 동아리 TG의 파이썬 팀의 프로젝트 결과물
+<div>
+  <button id="toggle-button2">국어 문법 상식 테스트 코드</button>
+  <pre id="code-block" style="display: none;">
+    <code>
+// 여기에 spaceman 코드를 작성하세요
+pygame 뭐시기뭐시기
+console.log('Hello, spaceman!');
+    </code>
+  </pre>
+</div>
+<style>
+  #toggle-button2 {
+    border-radius: 10px; /* 모서리를 둥글게 */
+    padding: 10px 20px; /* 버튼 크기 조절 */
+    background-color: #007bff; /* 버튼 배경색 */
+    color: white; /* 텍스트 색 */
+    border: none; /* 버튼 테두리 제거 */
+    cursor: pointer; /* 마우스를 올리면 포인터 표시 */
+  }
+  #toggle-button2:hover {
+    background-color: #0056b3; /* 마우스를 올렸을 때 색상 */
+  }
+  #code-block {
+    background-color: #93B6F9;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: monospace;
+  }
+</style>
+<script>
+  document.getElementById('toggle-button2').addEventListener('click', function () {
     const codeBlock = document.getElementById('code-block');
     if (codeBlock.style.display === 'none' || codeBlock.style.display === '') {
       codeBlock.style.display = 'block';
@@ -99,7 +110,7 @@ console.log('Hello, spaceman!');
 
 Spaceman - 2022년 개인 프로젝트의 결과물(Python으로 제작)
 <div>
-  <button id="toggle-button" style="background-color:#93B6F9; font-color:#FFFFFF;">spaceman 코드</button>
+  <button id="toggle-button3">spaceman 코드</button>
   <pre id="code-block" style="display: none;">
     <code>
 // 여기에 spaceman 코드를 작성하세요
@@ -109,6 +120,17 @@ console.log('Hello, spaceman!');
   </pre>
 </div>
 <style>
+  #toggle-button3 {
+    border-radius: 10px; /* 모서리를 둥글게 */
+    padding: 10px 20px; /* 버튼 크기 조절 */
+    background-color: #007bff; /* 버튼 배경색 */
+    color: white; /* 텍스트 색 */
+    border: none; /* 버튼 테두리 제거 */
+    cursor: pointer; /* 마우스를 올리면 포인터 표시 */
+  }
+  #toggle-button3:hover {
+    background-color: #0056b3; /* 마우스를 올렸을 때 색상 */
+  }
   #code-block {
     background-color: #93B6F9;
     padding: 10px;
@@ -118,7 +140,7 @@ console.log('Hello, spaceman!');
   }
 </style>
 <script>
-  document.getElementById('toggle-button').addEventListener('click', function () {
+  document.getElementById('toggle-button3').addEventListener('click', function () {
     const codeBlock = document.getElementById('code-block');
     if (codeBlock.style.display === 'none' || codeBlock.style.display === '') {
       codeBlock.style.display = 'block';
@@ -131,7 +153,7 @@ console.log('Hello, spaceman!');
 ### C_GAME
 C언어 테트리스 - 2022년 개인 프로젝트의 결과물(C언어로 제작)
 <div>
-  <button id="toggle-button" style="background-color:#93B6F9; font-color:#FFFFFF;">C언어 테트리스 코드</button>
+  <button id="toggle-button4">C언어 테트리스 코드</button>
   <pre id="code-block" style="display: none;">
     <code>
 // 여기에 spaceman 코드를 작성하세요
@@ -141,6 +163,17 @@ console.log('Hello, spaceman!');
   </pre>
 </div>
 <style>
+  #toggle-button4 {
+    border-radius: 10px; /* 모서리를 둥글게 */
+    padding: 10px 20px; /* 버튼 크기 조절 */
+    background-color: #007bff; /* 버튼 배경색 */
+    color: white; /* 텍스트 색 */
+    border: none; /* 버튼 테두리 제거 */
+    cursor: pointer; /* 마우스를 올리면 포인터 표시 */
+  }
+  #toggle-button4:hover {
+    background-color: #0056b3; /* 마우스를 올렸을 때 색상 */
+  }
   #code-block {
     background-color: #93B6F9;
     padding: 10px;
@@ -150,7 +183,7 @@ console.log('Hello, spaceman!');
   }
 </style>
 <script>
-  document.getElementById('toggle-button').addEventListener('click', function () {
+  document.getElementById('toggle-button4').addEventListener('click', function () {
     const codeBlock = document.getElementById('code-block');
     if (codeBlock.style.display === 'none' || codeBlock.style.display === '') {
       codeBlock.style.display = 'block';
