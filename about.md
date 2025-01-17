@@ -29,7 +29,8 @@ Link: [동아리 발표회 ZEP](https://zep.us/play/24JvZV)
   <button id="toggle-button1">몽중인 코드</button>
   <pre id="code-block1" style="display: none;">
     <code>
-import pygame, sys, random, time
+"""
+      import pygame, sys, random, time
 from pygame.locals import *
 
 pygame.init()
@@ -667,6 +668,7 @@ while 1:
             menu = "apilog"
 
     pygame.display.update()
+"""
     </code>
   </pre>
 </div>
@@ -706,6 +708,7 @@ while 1:
   <button id="toggle-button2">국어 문법 상식 테스트 코드</button>
   <pre id="code-block2" style="display: none;">
     <code>
+"""
 import pygame, sys, random, time
 from pygame.locals import*
 pygame.init()
@@ -950,6 +953,7 @@ while 1:
     pygame.display.update()
 
 #시작하기-Q1-A1-Q2-A2-Q3-A3-Q4-A4-결과-처음으로
+"""
     </code>
   </pre>
 </div>
@@ -989,6 +993,7 @@ Spaceman - 2022년 개인 프로젝트의 결과물(Python으로 제작)
   <button id="toggle-button3">spaceman 코드</button>
   <pre id="code-block3" style="display: none;">
     <code>
+"""
 import pygame, sys, random, time
 from pygame.locals import *
 
@@ -1163,6 +1168,7 @@ while 1:
                 pygame.display.update()
 
     pygame.display.update()
+"""
     </code>
   </pre>
 </div>
@@ -1203,6 +1209,7 @@ C언어 테트리스 - 2022년 개인 프로젝트의 결과물(C언어로 제�
   <button id="toggle-button4">C언어 테트리스 코드</button>
   <pre id="code-block4" style="display: none;">
     <code>
+"""
 #include <stdio.h>
 #include <windows.h>
 #include <conio.h>
@@ -1570,6 +1577,7 @@ void InputKey()
         system("cls");
     }
 }
+"""
     </code>
   </pre>
 </div>
