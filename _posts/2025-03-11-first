@@ -1,0 +1,55 @@
+---
+layout: post
+title:  "Web Hacking Study - Dreamhack"
+toc: true
+---
+
+## Introduction
+그냥 소개하는 곳이구나.
+각오: 부지런하자
+
+## Background: Web
+World Wide Web, W3, Web, 웹
+웹: HTTP를 이용하여 정보를 공유하는 서비스
+HTTP: 웹상에서 서로 통신을 하기 위해 정해둔 일종의 규칙
+프론트엔드(Front-end): 이용자의 요청을 받는 부분
+백엔드(Back-end): 요청을 처리하는 부분
+
+웹 리소스: 웹에 갖춰진 정보 자산 - 고유의 Uniform Resource Identifier(URL)을 가짐
+- Hyper Text markup Language (HTML): 태그와 속성을 통한 구조화된 문서 작성 지원
+- Cascading Style Sheets (CSS): 웹 리소스들의 시각화 방법을 기재한 스타일 시트
+- JavaScript (JS): 웹 문서의 동작 정의. (Client-Side Script)
+
+## Background: HTTP/HTTPS
+
+클라이언트의 행의 요청: Request / 서버의 행위 응답: Response
+프로토콜(Protocol): 규격화된 상호작용에 적용되는 약속
+
+HTTP: 서버와 클라이언트의 데이터 교환을 요쳥과 응답 형식으로 정의한 프로토콜
+# HTTP 헤더
+각 줄은 CRLF로 구분되며 첫 줄은 시작 줄(Start Line), 나머지 줄은 헤더(Header)라고 부름
+헤더의 끝은 빈 줄
+# HTTP 바디
+헤드의 끝을 나타내는 CRLF 뒤 모든 줄
+
+# HTTP 요청
+시작 줄: 메소드, 요청 대상, HTTP 버전으로 구성
+- 메소드: 요청 대상에 대해 서버가 수행하길 바라는 동작
+예) GET(리소스 가져와), POST(요청 대상에게 데이터 보내)
+# HTTP 응답
+시작줄: HTTP 버전, 상태 코드, 처리 사유로 구성. 띄어쓰기로 구분
+- 상태 코드: 요청에 대한 처리 결과를 세 자릿수로 나타냄 (예: 404)
+
+HTTPS(HTTP over Secure socket layer): TLS를 사용하여 HTTP를 보완한 프로토콜
+
+## Background: Web Browser
+
+웹 브라우저: 뛰어난 이용자 경험을 제공하는 소프트웨어 중 하나
+URL은 Scheme, Authority (Userinfo, Host, Port), Path, Query, Fragment로 구성
+
+
+
+
+
+
+
