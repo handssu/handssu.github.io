@@ -33,7 +33,8 @@ Link: [동아리 발표회 ZEP](https://zep.us/play/24JvZV)
 """
       import pygame, sys, random, time
 from pygame.locals import *
-
+-->
+<!--
 pygame.init()
 screen = pygame.display.set_mode((1200, 700))
 clock = pygame.time.Clock()
@@ -42,7 +43,8 @@ font1 = pygame.font.SysFont("malgungothic", 60)
 mc_lives = (pygame.image.load("life1.png").convert_alpha(),
             pygame.image.load("life2.png").convert_alpha(),
             pygame.image.load("life3.png").convert_alpha())
-
+-->
+<!--
 home_image = pygame.image.load("home.png").convert()
 apilog_image = pygame.image.load("apilog.jpg").convert()
 apilog2_image = pygame.image.load("apilog2.jpg").convert()
@@ -73,19 +75,18 @@ finish1_image = pygame.image.load("finish1.jpg").convert()
 finish2_image = pygame.image.load("finish2.jpg").convert()
 finish3_image = pygame.image.load("finish3.jpg").convert()
 fin_image = pygame.image.load("fin.jpg").convert()
-
-
+-->
+<!--
 class MC:
-
     def __init__(self):
         self.lives = 3
-
     def harm(self):
         self.lives -= 1
-
-
+-->
+<!--
 mc = MC()
-
+-->
+<!--
 while 1:
     clock.tick(30)
     for event in pygame.event.get():
@@ -669,7 +670,6 @@ while 1:
             menu = "apilog"
 
     pygame.display.update()
-"""
 -->
     </code>
   </pre>
@@ -719,7 +719,8 @@ screen = pygame.display.set_mode((1200,700))
 font = pygame.font.SysFont("gulim",60)
 score = 0
 menu = "home"
-
+-->
+<!--
 home_image = pygame.image.load("images/home.png").convert()
 Q1_image = pygame.image.load("images/Q1.png").convert()
 Q2_image = pygame.image.load("images/Q2.png").convert()
@@ -734,13 +735,14 @@ ahah_image = pygame.image.load("images/ahah.jpg").convert()
 half_image = pygame.image.load("images/half.jpg").convert()
 quarter_image = pygame.image.load("images/quarter.jpg").convert()
 foreigner_image = pygame.image.load("images/foreigner.jpg").convert()
-
+-->
+<!--
 while 1:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             pygame.quit()
             sys.exit()
-            
+  
     pressed_keys = pygame.key.get_pressed()
 
     if menu == "home":
@@ -955,6 +957,7 @@ while 1:
 
     pygame.display.update()
 
+<!--
 #시작하기-Q1-A1-Q2-A2-Q3-A3-Q4-A4-결과-처음으로
 """
 -->
@@ -1001,7 +1004,8 @@ Spaceman - 2022년 개인 프로젝트의 결과물(Python으로 제작)
 """
 import pygame, sys, random, time
 from pygame.locals import *
-
+-->
+<!--
 pygame.init()
 clock = pygame.time.Clock()
 pygame.display.set_caption("Space Man")
@@ -1010,14 +1014,15 @@ last_alien_spawn_time = 0
 score = 0
 font = pygame.font.SysFont("malgungothic", 40)
 font_s = pygame.font.SysFont("gulim.ttc", 95)
-
+-->
+<!--
 space_image = pygame.image.load("images/space.jpg").convert()
 alien_image = pygame.image.load("images/alien.png").convert_alpha()
 spaceman_image = pygame.image.load("images/spaceman.png").convert_alpha()
 missile_image = pygame.image.load("images/missile.png").convert_alpha()
 game_over_image = pygame.image.load("images/gameover.png").convert()
-
-
+-->
+<!--
 class Alien:
 
     def __init__(self):
@@ -1066,7 +1071,7 @@ class Alien:
         global score
         score += 10
 
-
+<!--
 class Spaceman:
 
     def __init__(self):
@@ -1221,13 +1226,15 @@ C언어 테트리스 - 2022년 개인 프로젝트의 결과물(C언어로 제�
 #include <windows.h>
 #include <conio.h>
 #include <time.h>
-
+-->
+<!--
 clock_t startDropT, endT, startGroundT;
 int x = 8, y = 0;
 RECT blockSize;
 int blockForm, blockRotation = 0;
 int key;
-
+-->
+<!--
 int block[7][4][4][4] = {
     {// T 블럭
      {
@@ -1355,7 +1362,8 @@ int block[7][4][4][4] = {
       {0, 1, 1, 0},
       {0, 1, 1, 0},
       {0, 0, 0, 0}}}};
-
+-->
+<!--
 // 게임 보드
 // 세로 15+1(아래벽)칸, 가로 10+2(양쪽벽)칸
 int space[15 + 1][10 + 2] =
@@ -1376,7 +1384,8 @@ int space[15 + 1][10 + 2] =
         {1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1},
         {1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1},
         {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1}};
-
+-->
+<!--
 void Init();
 void gotoXY(int x, int y);
 void CreateRandomForm();
@@ -1387,7 +1396,8 @@ void RemoveLine();
 void DrawMap();
 void DrawBlock();
 void InputKey();
-
+-->
+<!--
 int main()
 {
     Init();
@@ -1404,7 +1414,8 @@ int main()
     }
     return 0;
 }
-
+-->
+<!--
 void Init()
 {
     CONSOLE_CURSOR_INFO cursorInfo;
@@ -1413,7 +1424,8 @@ void Init()
     SetConsoleCursorInfo(GetStdHandle(STD_OUTPUT_HANDLE), &cursorInfo);
     srand(time(NULL));
 }
-
+-->
+<!--
 void gotoXY(int x, int y)
 {
     COORD pos;
@@ -1421,12 +1433,14 @@ void gotoXY(int x, int y)
     pos.Y = y;
     SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), pos);
 }
-
+-->
+<!--
 void CreateRandomForm()
 {
     blockForm = rand() % 7;
 }
-
+-->
+<!--
 bool CheckCrash(int x, int y)
 {
     for (int i = 0; i < 4; i++)
@@ -1445,7 +1459,8 @@ bool CheckCrash(int x, int y)
     }
     return false;
 }
-
+-->
+<!--
 void DropBlock()
 {
     endT = clock();
@@ -1459,7 +1474,8 @@ void DropBlock()
         system("cls");
     }
 }
-
+-->
+<!--
 void BlockToGround()
 {
     if (CheckCrash(x, y + 1) == true)
@@ -1482,7 +1498,8 @@ void BlockToGround()
         }
     }
 }
-
+-->
+<!--
 void RemoveLine()
 {
     for (int i = 15; i >= 0; i--)
@@ -1510,7 +1527,8 @@ void RemoveLine()
         }
     }
 }
-
+-->
+<!--
 void DrawMap()
 {
     gotoXY(0, 0);
@@ -1531,7 +1549,8 @@ void DrawMap()
         }
     }
 }
-
+-->
+<!--
 void DrawBlock()
 {
     for (int i = 0; i < 4; i++)
@@ -1546,7 +1565,8 @@ void DrawBlock()
         }
     }
 }
-
+-->
+<!--
 void InputKey()
 {
     if (_kbhit())
